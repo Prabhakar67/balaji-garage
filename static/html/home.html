@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Gluten:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/home.css">
+    
+    <my-css></my-css>
+    
+</head>
+
+<body>
+    
+    <script type="module" src="js/temp.js"></script>
+    <!-- here type=module is very important for working of sliding navbar actions -->
+
+    <!-- navbar html -->
+
+    <my-header></my-header>
+
+    <!-- home html -->
+    
+
+    <div class="cont1">
+
+        <div class="sect1">
+
+            <div class="heading">
+                Complete Two Wheeler Servicing At Your Time
+            </div>
+            <h3 class="subheading">service your 2 wheeler from the place of your choice in Pune</h3>
+        </div>
+    </div>
+
+    <div class="uform">
+
+        <form method="post" action="/">
+
+            <input name='name' type="string" minlength="3" maxlength="20" placeholder='Enter your full name'>
+            <input name='number' type="number" placeholder='Mobile Number'>
+            <input name='email' type="email" placeholder='E-mail Address'>
+            <input name='pincode' type="number" placeholder='Area Pin-Code'>
+
+            <button type="submit" class="btn2">Book An Appointment</button>
+
+        </form>
+    </div>
+
+    <div class="cont2">
+
+        
+
+        <div class="brands">Two-Wheeler Brands Covered:
+
+            <div class="box1">
+
+                <img class='logo_img' src="img/motercycle logos/bajaj.png" alt="bajaj">
+                <img src="img/motercycle logos/hero.png" alt="hero" class="logo_img">
+            </div>
+
+            <div class="box2">
+
+                <img src="img/motercycle logos/honda.png" alt="honda" class="logo_img">
+                <img src="img//motercycle logos/tvs.png" alt="tvs" class="logo_img">
+
+            </div>
+
+            <div class="box3">
+                <img src="img//motercycle logos/suzuki.png" alt="suzuki" class="logo_img">
+                <img src="img//motercycle logos/yamha.png" alt="tvs" class="logo_img">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- footer html -->
+
+   <my-footer></my-footer>
+
+</body>
+
+</html>

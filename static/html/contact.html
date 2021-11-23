@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Gluten:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/contact.css">
+ 
+    <my-css></my-css>
+
+</head>
+
+<body>
+
+    <script type="module" src="js/temp.js"></script>
+
+    <!-- navbar html -->
+    <my-header></my-header>
+
+    <!-- form html -->
+    <div class="cont11">
+
+        <div class="cont1">
+
+            <div class="header">
+                <h1 class="heading1">Contact Form</h1>
+            </div>
+
+            <form method="post" action="/contact" >
+
+                <label for="name">Enter your full name:</label>
+                <input type="text" name="name" placeholder="Enter full name">
+
+                <label for="number">Enter your phone number:</label>
+                <input type="number" name="number" placeholder="Enter contact number">
+
+                <label for="E-mail">E-mail address:</label>
+                <input type="email" name="email" placeholder="Enter E-mail ID" required>
+
+                <input name='pincode' type="number" placeholder='Area Pin-Code'>
+
+                <label for="two wheeler">Enter your two wheeler name: </label>
+                <input type="text" name="bike_name" id="bike_name" required>
+
+                <label for="bike number">Enter vehicle registration number:</label>
+                <input type="text" name="bike_number" id="bike number" required>
+
+                <label for="bike problem">Enter bike problem(s) in brief: </label>
+                <textarea name="bike_problem"></textarea>
+
+
+                <button type="submit" class="submit">Book Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer html -->
+
+<my-footer></my-footer>
+
+</body>
+
+</html>

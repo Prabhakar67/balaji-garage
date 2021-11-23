@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.servbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    flex-flow: wrap;
+}
+.cardbox{
+    display: flex;
+    flex-direction: column;
+  
+}
+.card{
+    background-color: aqua;
+     width: 30rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border:1px solid black;
+    font-size: 2.2rem;
+}
+.card1{
+    background-color: rgb(236, 219, 195);
+}
+.card2{
+    background-color: rgb(163, 157, 154);
+}
+.card ul li{
+    list-style: circle;
+    margin: 2rem;
+    font-size: 1.9rem;
+    
+}
+.card2 ul li{
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+}
+#price{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.card_heading{
+    margin: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.btn2{
+    background-color: rgb(209, 9, 9);
+    color: white;
+    font-size: 2.3rem;
+    padding: 0.5rem 2rem 0.5rem 2rem ;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.heading1{
+    font-size: 4rem;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+/* media queries */
+
+@media(max-width:1050px){
+    
+    .heading1{
+        margin-top: 7.5rem;
+    }
+
+    .cont{
+        margin-top: 10rem;
+    }
+    .card2{
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width:700px){
+    
+     label{
+         font-size: 1.5rem;
+         max-width: auto;
+         
+     }
+     input{
+        padding: 0.5rem 1.5rem;
+        font-size: 1.5rem;
+     }
+     input[type="submit"]{
+         padding: 0.7rem;
+         font-size: 1.2rem;
+     }
+     .heading1{
+         margin-top: 4rem;
+         font-size: 3.5rem;
+     }
+     .cont1.active{
+        margin-top: 20.5rem;
+    }
+     
+}
+
+@media (max-width:325px){
+    .card{
+        width: 15rem;
+        height: auto;
+    }
+    
+}

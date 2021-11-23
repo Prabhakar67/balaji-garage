@@ -1,0 +1,127 @@
+ /* html page css */
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    
+}
+ 
+ /* form css */
+
+.cont1{
+    max-width: 80rem;
+    margin:auto;
+    padding: 1rem; 
+    padding-top: 0;
+}
+
+.cont11{
+    margin-top: 7rem;
+    padding-top: 0;
+}
+.cont1 form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+  
+}
+.heading1{
+    font-size: 4rem;
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 0;
+    /* margin-top: 9rem;
+    margin-bottom: 1rem; */
+    font-size: 5rem;
+}
+/* input[type="text"]{
+margin-bottom: 20px;
+margin-top: 10px;
+}
+*/
+
+input{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border: 1px solid cornflowerblue;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+textarea{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border: 1px solid cornflowerblue;
+    border-radius: 1rem;
+}
+.submit{
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    background-color:cornflowerblue;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.submit:hover{
+    background-color: rgb(139, 144, 145);
+}
+
+
+
+
+@media(max-width:1000px){
+   
+    .cont11{
+        margin-top: 9.5rem;
+    }
+}
+
+
+@media(max-width:700px){
+
+    
+     label{
+         font-size: 1.5rem;
+         max-width: auto;
+         
+     }
+     
+     .cont11{
+        margin-top: 4rem;
+    }
+     .header{
+         margin-top: 0;
+         padding: 0;
+     }
+     .heading1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+     input button{
+        padding: 0.5rem 1.5rem;
+        font-size: 1.5rem;
+     }
+     .submit{
+         padding: 0.7rem;
+         font-size: 1.2rem;
+     }
+     .cont1.active{
+        margin-top: 20.5rem;
+    }
+     
+}
