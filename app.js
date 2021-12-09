@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(path.join(__dirname, 'static')));
 
-mongoose.connect('mongodb+srv://Prabhakar:<password>@cluster0.gvrdg.mongodb.net/balajiDB')
+mongoose.connect('mongodb+srv://Prabhakar:password@cluster0.gvrdg.mongodb.net/balajiDB')
 
 const formSchema = {
     name: String,
