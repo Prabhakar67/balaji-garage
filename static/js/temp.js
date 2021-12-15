@@ -238,8 +238,6 @@ class myfooter extends HTMLElement {
 
     </div>
 
-    <script src="js/header-footer.js"></script>
-
    `
     }
 }
