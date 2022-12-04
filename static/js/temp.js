@@ -13,10 +13,10 @@ class myheader extends HTMLElement {  //import header file in which the navigati
         </a>
         <div class="navlist">
             <ul>
-                <a href="http://localhost/">  <li class="li">Home</li>  </a>
-                <a href="http://localhost/services"> <li class="li">Services</li>  </a>
-                <a href="http://localhost/about"> <li class="li">About</li>     </a>
-                <a href="http://localhost/contact"> <li class="li">Contact</li>   </a>
+                <a href="http://127.0.0.1:5500/static/html/home.html">  <li class="li">Home</li>  </a>
+                <a href="http://127.0.0.1:5500/static/html/services.html"> <li class="li">Services</li>  </a>
+                <a href="http://127.0.0.1:5500/static/html/about.html"> <li class="li">About</li>     </a>
+                <a href="http://127.0.0.1:5500/static/html/contact.html"> <li class="li">Contact</li>   </a>
             </ul>
         </div>
 
